@@ -28,7 +28,7 @@ const statusPerformance = document.getElementById('statusPerformance');
 let genderChart, ageChart, goalChart, exerciseChart, durationChart, accuracyChart, riskChart;
 
 // Mock data flag
-const USE_MOCK_DATA = false; // Set to false when database is ready
+const USE_MOCK_DATA = true; // Set to false when database is ready
 
 // Initialize dashboard
 document.addEventListener('DOMContentLoaded', () => {
